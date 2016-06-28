@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="styles/all.css">
     <script>
         var old_url = window.location.href;
-        var new_url = old_url.replace("#", "?");
-        window.location = new_url;
+        var split_data_url = old_url.split("#");
+        window.location = "/index.php?"+split_data_url[1];
     </script>
 </head>
 
