@@ -10,7 +10,7 @@
 
         <?php if (!isset($_GET['access_token'])) { ?>
             <div class="middle-vertical-center">
-                <a class="btn btn-default btn-lg" href="https://api.instagram.com/oauth/authorize/?client_id=01234a10ef604b0db841b1deb0d1b6d0&redirect_uri=http://instagram_follow.iamcebu.com&response_type=token"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Login Instagram</a>
+                <a class="btn btn-default btn-lg" href="https://api.instagram.com/oauth/authorize/?client_id=01234a10ef604b0db841b1deb0d1b6d0&redirect_uri=http://instagram_follow.iamcebu.com/process_access_token.php&response_type=token"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Login Instagram</a>
             </div>
         <?php } else { ?>
             <h1>Access Token: <?php echo $_GET['access_token']; ?></h1>
