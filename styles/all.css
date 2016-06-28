@@ -3,3 +3,28 @@
     top: 45%;
     left: 45%;
 }
+
+
+/*TOP BANNER*/
+#top-banner {
+    background-color: #e6f7ff;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+}
+#top-banner-profile-image  {
+    background-color: darkgray;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin: 0px 0px 0px -75px;
+}
+#top-banner-name {
+    position: absolute;
+    top: 155px;
+    text-align: center;
+    width: 100%;
+}
