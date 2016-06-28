@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/all.css">
     <script>
         var old_url = window.location.href;
-        var new_url = old_url.replace("#", "");
+        var new_url = old_url.replace("#", "?");
         window.location = new_url;
     </script>
 </head>
